@@ -25,13 +25,13 @@ print(a, type(a))
 a='message'
 print(a, type(a))
 
-a=[1,2,3]  #square brackets
+a=[1,2,3]  #square brackets for list
 print(a, type(a))
 
-a=('hey','hi','hellow') #round brackets
+a=('hey','hi','hellow') #round brackets for tuple
 print(a, type(a))
 
-a={3,2,1} # curly brackets
+a={3,2,1} # curly brackets for set
 print(a, type(a))
 
 a={'apple':'a fruit', 'brinjel': 'a vegetable'}
