@@ -28,4 +28,4 @@
         - copy()
 5. list comprehension
 6. lamda expression
-7. 'map' &'filter'
+7. 'map' & 'filter'
