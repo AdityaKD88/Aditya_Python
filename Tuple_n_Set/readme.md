@@ -50,9 +50,9 @@ sequence of unique data
         - intersection()
         - difference()
         - symmetric_difference
-        - is_superset()
-        - is_subset()
-        - is_disjoint()
+        - issuperset()
+        - issubset()
+        - isdisjoint()
 
 
 
