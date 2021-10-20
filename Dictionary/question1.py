@@ -2,17 +2,12 @@
 around 15 key and value from user and then perform sum and average
 on the values.
 '''
-items={}
-print("******Expenses******")
+items = {}
 for i in range(3):
-    k=input("Enter the item : ")
-    v=int(input("Enter the expense : "))
-    items[k]=v
+    k = input('enter an item ->> ')
+    v = int(input('enter the value ->> '))
+    items[k]= v
 
-total=sum(list(items.values()))
-avg=sum(list(items.values())/len(items))
-print(f"total is {total},  average is {avg}")
-''''''
 sum=0
 for i in items:
     sum=sum+items[i]
@@ -21,6 +16,16 @@ print('\nItem and expenses are : ')
 for k,v in items.items():
     print(k,"=>",v,end=', ')
 
-print("\nSum of expenses is : ",sum)
-print("\nAverage of expenses is : ",sum/len(items))
+print("\nSum of itemsenses is : ",sum)
+print("\nAverage of itemsenses is : ",sum/len(items))
+
+'''
+expences = {}
+for i in range(15):
+    k = input('enter a word->>')
+    v = int(input('enter the meaning->>'))
+    expences[k]= v
+total = sum(list(expences.values()))
+average = sum(list(expences.values())/len(expences))
+print(f'total is {total}, average is {average}')
 '''

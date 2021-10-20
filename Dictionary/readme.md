@@ -20,6 +20,14 @@ sequence of data
     - *adding item*
         - update()
     - *removing item*
-        -
+        - pop()
+        - popitem()
+        - clear()
     - *utility fun*
-        -
+        - keys()
+        - values()
+        - items()
+        - fromkeys()
+        - copy()
+5. nested dictionary
+6. dictionary comprehension
