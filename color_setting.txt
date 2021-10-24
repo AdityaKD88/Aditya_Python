@@ -1,0 +1,1 @@
+color -> bluealpha -> 0.1gamma -> 3
