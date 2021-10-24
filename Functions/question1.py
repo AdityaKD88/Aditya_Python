@@ -7,11 +7,27 @@ hi  45
 this  343
 Make this a one or more function program
 '''
-file=open('dummy.txt','r')
-words=file.split()
-x=dict()
-for c in words:
-    x[c]+=1
-file.close()
-for k in list(x.keys()):
-    print(k, ":", x[k])
+from string import punctuation
+
+def question1_solver(read_file_path,save_file_path='results.txt'):
+    # read the file and store in a variable
+    file=open(read_file_path,encoding='utf-8')     #read
+    content=file.read()
+    file.close()
+
+    # remove every punctuations
+    for punc in punctuation:
+        content=content.replace(punc,'')
+    
+    # make every thing lowercase and split in words
+    words=content.casefold().split()
+    print(f'total words are : {len(words)}')
+
+    # create an empty file
+    with open(save_file_path,'w') as file2 :    #create
+        # counting the words
+        for word in set(words):
+            count=words.count(word)
+            file2.write(f'{word} : {count}\n')
+
+question1_solver('franky.txt')
