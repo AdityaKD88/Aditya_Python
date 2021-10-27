@@ -22,7 +22,7 @@ items=[Shape(2,2),Shape(1,5),Shape(3,3),Shape(10,10),Shape(3,2)]
 print(items)
 
 
-if Shape(3,3) > Shape(3,2):
+if Shape(38,39) > Shape(13,72):
     print('Yes')
 
 items.sort()
